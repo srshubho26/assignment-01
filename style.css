@@ -23,6 +23,17 @@ h1, h2, h3, h4, h5, h6, p, a{
     color: rgb(13, 19, 33);
 }
 
+.btn{
+    padding: 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    border: none;
+}
+
 .title{
     font-size: 32px;
     font-weight: 800;
@@ -90,16 +101,6 @@ header .banner .banner-content img{
 header .banner .banner-content h1{
     font-size: 42px;
     font-weight: 800;
-}
-
-header .banner .banner-content a{
-    padding: 21px 24px;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
 }
 
 
@@ -208,4 +209,46 @@ header .banner .banner-content a{
     font-size: 16px;
     font-weight: 700;
     border-bottom: 2px solid rgb(13, 19, 33);
+}
+
+/* Support CSS */
+.support .container{
+    border-radius: 16px;
+    text-align: center;
+    background: linear-gradient(#00000063, #0000007a), url(assets/handshake.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 64px 0;
+}
+
+.support .container h2{
+    color: #fff;
+}
+
+.support .container p{
+    color: #fff;
+    opacity: .7;
+    margin: 10px 0;
+}
+
+.support form{
+    width: 800px;
+    margin: auto;
+    gap: 18px;
+    margin-top: 60px;
+}
+
+.support form input{
+    padding: 19px 20px;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+}
+
+.support form button{
+    padding: 19px 30px;
+    background: #fff;
+    color: rgb(13, 19, 33);
 }
