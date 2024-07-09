@@ -40,7 +40,7 @@ main section .short-desc{
 }
 
 main section{
-    margin-top: 80px;
+    margin: 80px 0;
 }
 
 
@@ -153,14 +153,12 @@ header .banner .banner-content a{
     font-weight: 600;
     padding: 12px 20px;
     border: 1px solid rgba(13, 19, 33, 0.7);
-    
 }
 
+
+/* Inspiration CSS */
 .inspiration{
     text-align: center;
-}
-
-.inspiration p{
 }
 
 .inspiration .video-wrap{
@@ -173,4 +171,41 @@ header .banner .banner-content a{
 .inspiration .video-wrap iframe{
     width: 100%;
     height: 550px;
+}
+
+
+/* Current Target CSS */
+.current-target{
+    text-align: center;
+}
+
+.current-target .targets-wrap{
+    text-align: left;
+    gap: 5%;
+    margin-top: 60px;
+}
+
+.current-target  .targets-wrap .single-target{
+    flex-basis: 30%;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target  .targets-wrap .css{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.current-target  .targets-wrap .js{
+    background: rgba(255, 223, 0, 0.05)
+}
+
+.current-target  .targets-wrap .single-target p{
+    padding: 0;
+}
+
+.current-target  .targets-wrap .single-target a{
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(13, 19, 33);
 }
