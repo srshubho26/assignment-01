@@ -23,6 +23,25 @@ h1, h2, h3, h4, h5, h6, p, a{
     color: rgb(13, 19, 33);
 }
 
+.title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.short-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+main section .short-desc{
+    margin: 24px 0;
+}
+
+main section{
+    margin-top: 80px;
+}
+
 
 /* Header + Nav + banner Css */
 header nav{
@@ -60,18 +79,16 @@ header .banner .banner-content{
 }
 
 header .banner .banner-content .banner-element{
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+header .banner .banner-content img{
+    max-width: 200px;
 }
 
 header .banner .banner-content h1{
     font-size: 42px;
     font-weight: 800;
-}
-
-header .banner .banner-content p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 header .banner .banner-content a{
@@ -82,4 +99,54 @@ header .banner .banner-content a{
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
+}
+
+
+/* Reason CSS */
+.reason .container{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 95px;
+    text-align: center;
+}
+
+.reason > .container > .short-desc{
+    margin-bottom: 60px;
+}
+
+.reason .reason-wrap{
+    padding: 35px 0;
+    text-align: left;
+}
+
+.reason .reason-wrap .single-reason{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.reason .reason-wrap .reason-img{
+    flex-basis: 40%;
+}
+
+.reason .reason-wrap:nth-child(odd) .reason-img{
+    align-items: end;
+}
+
+.reason .reason-wrap .single-reason h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.reason .reason-wrap .single-reason a{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    
 }
