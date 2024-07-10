@@ -251,10 +251,15 @@ header .banner .banner-content h1{
     border: none;
 }
 
+.support form input::placeholder{
+    color: rgba(0, 39, 130, 0.4);
+}
+
 .support form button{
     padding: 19px 30px;
     background: #fff;
     color: rgb(13, 19, 33);
+    cursor: pointer;
 }
 
 
