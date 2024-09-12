@@ -4,6 +4,17 @@
     }
 }
 
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .current-target .targets-wrap {
+        gap: 0;
+    }
+
+    .current-target  .targets-wrap .single-target {
+        padding: 40px 10px;
+        flex-basis: 32%;
+    }
+}
+
 @media only screen and (max-width: 576px){
     header nav .download {
         font-size: 16px;
